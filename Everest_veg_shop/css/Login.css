@@ -1,0 +1,23 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+body {
+    background-image: url('../asset/images/veg_login.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    
+}
+
+.glass{
+    background-color:rgba(30,39,39,0.4);
+    box-shadow:0 10px 50px magenta;
+    border-radius:20px;
+    padding:10px;
+    
+   
+}

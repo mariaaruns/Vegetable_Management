@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SellerMaster.master.cs" Inherits="Everest_veg_shop.View.Seller.SellerMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" href="../../Asset/Lib/Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../../Index.aspx">Everest Vegetables</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       
+        <li class="nav-item">
+          <a class="nav-link" href=""> <i class="fa-solid fa-box"></i> Products</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href=""> <i class="fa-solid fa-table-cells-large"></i> Categories</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href=""><i class="fa-solid fa-user-tie"></i> Seller</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href=""><i class="fa-solid fa-chart-line"></i> Dashboard</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link" href=""><i class="fa-solid fa-envelope"></i> Contact Msg</a>
+        </li>
+            <li class="nav-item">
+          <a class="nav-link" href=""><i class="fa-solid fa-user"></i> Customers Records</a>
+        </li>
+
+          <li class="nav-item">
+          <a class="nav-link" href="../Login.aspx"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+        </li>
+         </ul>
+      
+    </div>
+  </div>
+</nav>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="Mybody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
